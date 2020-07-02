@@ -3,3 +3,15 @@
     padding: 0px;
     background-origin: border-box;
 }
+
+.color0 {
+    background-color: cornflowerblue;
+    width: 30px;
+    height: 30px;
+}
+
+.color1 {
+    background-color: darksalmon;
+    width: 30px;
+    height: 30px;
+}

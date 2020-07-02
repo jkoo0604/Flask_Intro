@@ -14,5 +14,10 @@ def success():
 def hello(name):
     return "Hello, " + name * 2
 
+@app.route('/grid/<size>')
+def create_grid(size):
+    size = int(size)
+    return render_template('grid.html', size=size)
+
 if __name__ == "__main__":
     app.run(debug=True)
